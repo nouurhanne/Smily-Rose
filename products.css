@@ -1,0 +1,58 @@
+body{
+  background-color: grey;
+
+}
+.slider {
+width: auto;
+margin:auto;
+overflow: hidden;
+
+}
+.slider ul {
+
+  width:auto;
+  list-style: none;
+
+
+}
+.slider ul li {
+  float:right;
+  position: relative;
+
+
+}
+.slider h4 {
+  border: 2px solid black;
+  box-sizing:border-box;
+  background-color:  pink;
+  border-radius: 20px;
+  border-top: 5px;
+  margin: 0;
+ padding: 15px;
+ text-align: center;
+ width: 100%;
+ 
+
+}
+img{
+margin-left: 20px;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+
+button{
+background-color: pink;
+border: 0;
+outline: none;
+cursor: pointer;
+font-weight: bold;
+border-radius: 20px;
+margin-left: 60px;
+margin-bottom: 90px;
+width: 150px;
+height: 30px;
+
+}
+button:hover {
+  background-color: #3e8e41;
+}
